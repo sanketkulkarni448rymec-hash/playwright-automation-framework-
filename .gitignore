@@ -1,0 +1,14 @@
+# Ignore target folder
+target/
+ 
+# Ignore IDE files
+.idea/
+*.iml
+ 
+# Ignore logs
+*.log
+ 
+# Ignore reports
+playwright-report/
+test-results/
+ 

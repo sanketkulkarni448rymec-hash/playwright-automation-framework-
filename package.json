@@ -1,0 +1,30 @@
+{
+  "name": "playwright-automation-framework-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketkulkarni448rymec-hash/playwright-automation-framework-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanketkulkarni448rymec-hash/playwright-automation-framework-/issues"
+  },
+  "homepage": "https://github.com/sanketkulkarni448rymec-hash/playwright-automation-framework-#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "playwright-core": "^1.58.2",
+    "undici-types": "^7.18.2"
+  },
+  "description": ""
+}

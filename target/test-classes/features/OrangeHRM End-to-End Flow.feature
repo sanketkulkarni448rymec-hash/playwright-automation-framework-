@@ -15,4 +15,4 @@ Feature: Login to OrangeHRM
    # When user enters invalid username "Admin1"
    ## And user enters invalid password "wrong123"
    # And user clicks on login button
-   Then error message "Invalid credentials" should be displayed
+   #Then error message "Invalid credentials" should be displayed

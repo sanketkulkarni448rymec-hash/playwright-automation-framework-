@@ -16,3 +16,24 @@ Feature: Login to OrangeHRM
    ## And user enters invalid password "wrong123"
    # And user clicks on login button
    #Then error message "Invalid credentials" should be displayed
+   
+    Scenario: Add Employee 
+    
+    Given User click on PIM Menu
+    And click on Add button 
+    And Enter the First name of the employee
+    And Enter the Last name of the employee
+    And Click on Save button
+    Then Validate Employee is created
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -14,9 +14,9 @@ public class Hooks {
         page = PlaywrightFactory.initBrowser();  // 🔥 Only here
     }
 
-    @After
-    public void tearDown() {
-        PlaywrightFactory.browser.close();
-        PlaywrightFactory.playwright.close();
-    }
+   // @After
+//    public void tearDown() {
+//        PlaywrightFactory.browser.close();
+//        PlaywrightFactory.playwright.close();
+//    }
 }

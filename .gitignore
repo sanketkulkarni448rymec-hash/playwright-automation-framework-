@@ -1,0 +1,16 @@
+# Maven
+target/
+
+# Compiled files
+*.class
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Eclipse
+.classpath
+.project
+.settings/

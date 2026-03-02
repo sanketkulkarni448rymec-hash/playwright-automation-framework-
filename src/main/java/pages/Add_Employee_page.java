@@ -32,20 +32,17 @@ public class Add_Employee_page {
 		        new Page.GetByRoleOptions().setName("Add")
 		    ).click();
 
-		
+	}
 	
 
 		// Click the Add button and wait for navigation
-		public final click_on_add_button() {
+		public final void click_on_add_button() {
 		    page.getByRole(AriaRole.BUTTON,
 		        new Page.GetByRoleOptions().setName("Add")
 		    ).click();
-
-		    // Wait until the URL changes to Add Employee page
-		    page.waitForURL("**/pim/addEmployee");  // Adjust according to actual URL
 		}
 	
-	}
+	
 	
 	
 	public void Enter_Firstname() {

@@ -26,6 +26,16 @@ Feature: Login to OrangeHRM
     And Click on Save button
     Then Validate Employee is created
     
+    Scenario:
+
+    Given User click on PIM Menu  
+    When Search with employee name
+    And click on Search
+    And click on Employee
+    And Enter the details
+    And Click on Save
+    Then Validate the employee update with Person details
+    
     
     
     

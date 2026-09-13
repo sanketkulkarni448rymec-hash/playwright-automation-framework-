@@ -30,4 +30,4 @@ jobs:
         run: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps"
 
       - name: Run automation tests
-        run: mvn test
+        run: mvn test-DsuiteXmlFile=testng.xml

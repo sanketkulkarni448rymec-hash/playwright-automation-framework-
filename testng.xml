@@ -3,12 +3,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="EventHub Suite">
+
     <test name="Event Flow">
         <classes>
             <class name="framework.logintest"/>
             <class name="framework.eventcreation"/>
             <class name="framework.BookEventTest"/>
-
         </classes>
     </test>
+
 </suite>

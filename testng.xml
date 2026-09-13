@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EventHub Suite" parallel="methods" thread-count="2">
+    <test name="Event Flow">
+        <classes>
+            <class name="framework.logintest"/>
+            <class name="framework.eventcreation"/>
+            <class name="framework.BookEventTest"/>
+
+        </classes>
+    </test>
+</suite>
